@@ -21,7 +21,7 @@ sudo pacman -S neovim
 
 3. Зайти в файл `init.vim` в папке `nvim` и провести установку плагинов командой `:PlugInstall`
 
-4. Установить пакет `exuberant-ctags
+4. Установить пакет exuberant-ctags
 **Установка в Debian/Ubuntu:**
 ```bash
 sudo apt install exuberant-ctags
