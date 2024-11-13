@@ -4,4 +4,16 @@ require'lspconfig'.pyright.setup{
   capabilities = capabilities, 
   filetypes = {"python"},
 }
-require'lspconfig'.eslint.setup{}
+require'lspconfig'.ts_ls.setup{
+  filetypes = {
+    "javascript",
+    "typescript",
+  },
+}
+require'lspconfig'.emmet_ls.setup{
+  filetypes = {
+    "html",
+    "css",
+  },
+}
+

@@ -135,6 +135,14 @@ require("lazy").setup({
     },
 
     {
+      'hrsh7th/vim-vsnip',
+    },
+
+    {
+      'hrsh7th/vim-vsnip-integ',
+    },
+
+    {
       "lukas-reineke/indent-blankline.nvim",
       main = "ibl",
       ---@module "ibl"
