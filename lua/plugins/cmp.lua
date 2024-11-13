@@ -85,6 +85,9 @@ local cmp = require'cmp'
   require('lspconfig').pyright.setup {
     capabilities = capabilities
   }
-  require('lspconfig').eslint.setup {
+  require('lspconfig').eslint-lsp.setup {
+    capabilities = capabilities
+  }
+  require('lspconfig').emmet-language-server.setup {
     capabilities = capabilities
   }
