@@ -5,7 +5,6 @@ require('core.configs')
 
 --Plugins
 require('plugins.hop')
-require('plugins.neotree')
 require('plugins.treesitter')
 require('plugins.lsp')
 require('plugins.onedark')

@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 --Neotree
-vim.keymap.set('n', '<leader>e', ':Neotree toggle float<CR>')
+vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>')
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>t', ':ToggleTerm direction=float<CR>', {noremap = true, silent = true})
