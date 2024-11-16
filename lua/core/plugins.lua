@@ -42,15 +42,15 @@ require("lazy").setup({
   },
 
   {
-	'nvim-treesitter/nvim-treesitter',
+	  'nvim-treesitter/nvim-treesitter',
   },
 
     {
-	'neovim/nvim-lspconfig',
+	    'neovim/nvim-lspconfig',
     },
-	
+	  
     {
-	'navarasu/onedark.nvim',
+      "catppuccin/nvim", name = "catppuccin", priority = 1000 
     },
 
     {

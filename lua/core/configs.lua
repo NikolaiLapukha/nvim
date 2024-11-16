@@ -1,6 +1,6 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
-vim.opt.guifont = { "JetBrainsNerd Font Mono", "h22" }
+vim.opt.guifont = { "JetBrainsMono Nerd Font", "h22" }
 vim.api.nvim_set_option("clipboard","unnamed") 
 
 vim.opt.backspace = '2'
