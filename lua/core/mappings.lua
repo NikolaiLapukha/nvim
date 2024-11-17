@@ -5,7 +5,7 @@ vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>')
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>t', ':ToggleTerm direction=float<CR>', {noremap = true, silent = true})
 
-vim.keymap.set('n', 'hw', ':HopWord<CR>')
+vim.keymap.set('n', '<leader>w', ':HopWord<CR>')
 vim.keymap.set('n', '<C-s>', ':w<CR>', opts)
 vim.keymap.set('i', 'jk', '<esc>', opts)
 
