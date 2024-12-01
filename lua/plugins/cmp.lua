@@ -91,9 +91,18 @@ local cmp = require'cmp'
       "typescript",
     },
   }
-  require'lspconfig'.emmet_ls.setup{
+  require'lspconfig'.emmet_language_server.setup{
     filetypes = {
       "html",
       "css",
-    },
+    }
   }
+  require'lspconfig'.bashls.setup{
+    cmd = {
+        "bash-language-server", "start",
+    },
+    filetypes = {
+      "sh",
+      "bash",
+    },
+}
