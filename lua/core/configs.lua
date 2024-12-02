@@ -2,7 +2,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.opt.guifont = { "JetBrainsMono Nerd Font", ":h32" }
 vim.api.nvim_set_option("clipboard","unnamed") 
-vim.cmd[[colorscheme tokyonight-night]] --moon storm night day
+--vim.cmd[[colorscheme tokyonight-moon]] --moon storm night day
 vim.opt.backspace = '2'
 vim.opt.cursorline = true
 vim.opt.softtabstop = 2

@@ -48,7 +48,12 @@ require("lazy").setup({
     {
 	    'neovim/nvim-lspconfig',
     },
-	  
+    
+    {
+      "olimorris/onedarkpro.nvim",
+      priority = 1000, -- Ensure it loads first
+    },
+
     {
       "folke/tokyonight.nvim",
       lazy = false,
@@ -116,14 +121,15 @@ require("lazy").setup({
       config = true
     },
 
-    {
-      'romgrk/barbar.nvim',
+    {'romgrk/barbar.nvim',
       dependencies = {
         'lewis6991/gitsigns.nvim', -- OPTIONAL: for git status
         'nvim-tree/nvim-web-devicons', -- OPTIONAL: for file icons
       },
       init = function() vim.g.barbar_auto_setup = false end,
       opts = {
+        animation = true,
+        -- insert_at_start = true,
         -- …etc.
       },
       version = '^1.0.0', -- optional: only update when a new 1.x version is released
