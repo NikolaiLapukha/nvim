@@ -49,16 +49,9 @@ require("lazy").setup({
 	    'neovim/nvim-lspconfig',
     },
     
-    {
-      "olimorris/onedarkpro.nvim",
-      priority = 1000, -- Ensure it loads first
-    },
-
-    {
-      "folke/tokyonight.nvim",
-      lazy = false,
+    { 
+      "EdenEast/nightfox.nvim",  
       priority = 1000,
-      opts = {},
     },
 
     {
