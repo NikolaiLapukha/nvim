@@ -35,4 +35,3 @@ vim.opt.iskeyword:append("-")
 vim.opt.mouse = "a"
 vim.opt.modifiable = true
 vim.opt.encoding = "UTF-8"
-
