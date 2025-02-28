@@ -49,15 +49,7 @@ require("lazy").setup({
 	    'neovim/nvim-lspconfig',
     },
     
-    {
-      'uloco/bluloco.nvim',
-      lazy = false,
-      priority = 1000,
-      dependencies = { 'rktjmp/lush.nvim' },
-      config = function()
-        -- your optional config goes here, see below.
-      end,
-    },
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 
     {
       'hrsh7th/cmp-nvim-lsp',
