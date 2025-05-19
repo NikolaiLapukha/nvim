@@ -22,7 +22,8 @@ git clone https://github.com/NikolaiLapukha/nvim.git ~/.config/nvim
 
 3. Зайти в файл `init.lua` в папке `nvim` и провести установку плагинов командой `:Lazy`
 
-4. Установить пакет `exuberant-ctags
+4. Установить пакет `exuberant-ctags`
+
 **Установка в Debian/Ubuntu:**
 ```bash
 sudo apt install exuberant-ctags
