@@ -39,6 +39,7 @@ sudo xbps-install ctags
 ```
 
 5. Установить дополнительные библиотеки `nodejs`, `npm`:
+   
 **Установка в Debian/Ubuntu:**
 ```bash
 sudo apt install nodejs npm
